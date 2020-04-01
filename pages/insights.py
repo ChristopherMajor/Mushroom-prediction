@@ -16,7 +16,7 @@ column1 = dbc.Col(
             """
         
             # Insights
-            ### How to determine your mushrooms attributes.
+            ## How to determine your mushrooms attributes.
             #### Odor:
             ##### This one is quite simple... smell our mushroom! Some smells on the dropdown list you might not be familiar with are
             ##### anise, which is a black licorice type smell, and creosote, which is like fresh-paved asphalt. 
@@ -33,6 +33,9 @@ column1 = dbc.Col(
             ##### This one is a little tricky. If the gills on the mushroom are about the thickness of a piece of paper they are narrow.
             ##### If the gills are thick like 2 credit cards stacked, then they are broad.
 
+            #### Stalk color below ring:
+            ##### The veil of a mushroom after it breaks is called the ring or Annulus. Select whatever color most closely matches the stem below this ring.
+
             
 
 
@@ -42,4 +45,10 @@ column1 = dbc.Col(
     ],
 )
 
-layout = dbc.Row([column1])
+column2 = dbc.Col(
+    [
+        html.Img(src='/assets/mushroom_guide.png',
+         className='img-fluid'),
+    ]
+)
+layout = dbc.Row([column1, column2])

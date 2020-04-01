@@ -15,7 +15,10 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Process
+            ## Using Python notebooks and a dataset of mushrooms i found on Kaggle,  I set up a random forest classifier prediction model and plugged it into the site here.
+            #### Here is a link to my notebook: (https://colab.research.google.com/drive/1yfxjt5W7RvnC0Aqx7KM8FvztkHBoFAVU)
+
+            #### Here is a link to the Kaggle data set: (https://www.kaggle.com/uciml/mushroom-classification)
 
 
             """

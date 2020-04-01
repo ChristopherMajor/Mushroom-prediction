@@ -28,6 +28,7 @@ column1 = dbc.Col(
 
             """
         ),
+        dcc.Markdown('__________________________'),
         dcc.Markdown('##### Odor', className='mb-5'),
         dcc.Dropdown(
             id='odor',
@@ -41,10 +42,9 @@ column1 = dbc.Col(
                 {'label': 'No Smell', 'value': 'n'},
                 {'label': 'Pungent', 'value': 'p'},
                 {'label': 'Spicy', 'value': 's'},
-
             ]
         ),
-        
+        dcc.Markdown('__________________________'),
         dcc.Markdown('##### Bruises', className='mb-5'),
         dcc.Dropdown(
             id='bruises',
@@ -53,6 +53,7 @@ column1 = dbc.Col(
                 {'label': 'No', 'value': 'f'},
             ]
         ),
+        dcc.Markdown('__________________________'),
         dcc.Markdown('##### Spore print color', className='mb-5'),
         dcc.Dropdown(
             id='spore_print_color',
@@ -68,6 +69,7 @@ column1 = dbc.Col(
                 {'label': 'Yellow', 'value': 'y'},
             ]
         ),
+        dcc.Markdown('__________________________'),
         dcc.Markdown('##### Gill size', className='mb-5'),
         dcc.Dropdown(
             id='gill_size',
@@ -76,6 +78,7 @@ column1 = dbc.Col(
                 {'label': 'Narrow', 'value': 'n'},
             ]
         ),
+        dcc.Markdown('__________________________'),
         dcc.Markdown('##### Stalk color below ring', className= 'mb-5'),
         dcc.Dropdown(
             id='stalk_color_below_ring',
